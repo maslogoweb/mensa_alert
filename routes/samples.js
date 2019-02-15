@@ -25,7 +25,7 @@ router.get('/hello', function(req, res, next) {
 });
 
 /* サンプルAPI3
- * http://localhost:3000/samples/mensa にGETメソッドのリクエストを投げると、
+ * http://localhost:3000/samples/getschedules にGETメソッドのリクエストを投げると、
  * JSON形式で文字列を返す。
  */
 router.get('/getschedules', function(req, res, next) {
