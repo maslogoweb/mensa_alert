@@ -56,7 +56,7 @@ router.get('/getschedules', function(req, res, next) {
 		var param = { result: result_array };
 		res.header('Content-Type', 'application/json; charset=utf-8');
 		res.send(param);
-	}, 2000);
+	}, 500);
 });
 
 module.exports = router;
