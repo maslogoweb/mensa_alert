@@ -2,7 +2,8 @@
 
 ## 説明
 
-JAPAN MENSAのテスト日程をJSONで返すAPI
+JAPAN MENSAの入会テスト日程一覧（都道府県、日時、席情報）をJSONで返すAPI
+https://mensa.jp/exam/
 
 ## メソッド
 
